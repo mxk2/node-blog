@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/controllers/admin.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/home.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/post.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/admin/index.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/admin/layout.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/blog/index.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/blog/layout.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/error.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/index.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/layout.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/express.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/admin.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/blog.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/data/input.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/data/support.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/data/users.json" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,65 @@
+//
+   Created by mengxk on 2016/1/12.
+extends ../layout
+
+append css
+  link(rel='stylesheet', href='/css/blog.css')
+
+block main
+  block header
+    .blog-masthead
+      .container
+        nav.blog-nav
+          if pageName === "/"
+            a.blog-nav-item.active(href="/") 首页
+          else
+            a.blog-nav-item(href="/") 首页
+          if pageName === "/about"
+            a.blog-nav-item.active(href="/about") 关于
+          else
+            a.blog-nav-item(href="/about") 关于
+          if pageName === "/contant"
+            a.blog-nav-item.active(href="/contant") 联系
+          else
+            a.blog-nav-item(href="/contant") 联系
+  .container
+      .row
+        .col-sm-8.blog-main
+          block content
+        .col-sm-3.col-sm-offset-1.blog-sidebar
+          .sidebar-module.sidebar-module-inset
+            h4 About
+            p
+              | Etiam porta
+              em sem malesuada magna
+              | mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+          .sidebar-module
+            h4 Archives
+            ol.list-unstyled
+              li
+                a(href="#") March 2014
+              li
+                a(href="#") February 2014
+              li
+                a(href="#") January 2014
+              li
+                a(href="#") December 2013
+          .sidebar-module
+            h4 友情链接
+            ol.list-unstyled
+              li
+                a(href="#") GitHub
+              li
+                a(href="#") Twitter
+              li
+                a(href="#") Facebook
+  block footer
+    footer.blog-footer
+      p
+        | Blog template built for
+        a(href="http://getbootstrap.com") Bootstrap
+        | by
+        a(href="https://twitter.com/mdo") @mdo
+        | .
+      p
+        a(href="#") Back to top
