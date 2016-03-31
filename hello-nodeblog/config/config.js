@@ -9,7 +9,7 @@ var config = {
       name: 'hello-nodeblog'
     },
     port: 3000,
-    db: 'mongodb://localhost/hello-nodeblog-development'
+    db: 'mongodb://localhost/nodeblog'
   },
 
   test: {
@@ -18,7 +18,7 @@ var config = {
       name: 'hello-nodeblog'
     },
     port: 3000,
-    db: 'mongodb://localhost/hello-nodeblog-test'
+    db: 'mongodb://localhost/nodeblog'
   },
 
   production: {

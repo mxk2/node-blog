@@ -18,11 +18,11 @@ var PostSchema = new Schema({
   },
   category: {
     type: Schema.Types.ObjectId,
-    required: true
+    ref: 'Category'
   },
   author: {
     type: Schema.Types.ObjectId,
-    require: true
+    ref: 'User'
   },
   published: {
     type: Boolean,
